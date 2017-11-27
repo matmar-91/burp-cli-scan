@@ -5,6 +5,10 @@ This little extension gives you ability to perform active or passive scan of pro
 It can spider host prior scan, or check only the provided link. You can get report in two formats
 supported by burp suite: HTML or XML. 
 
+### Build
+In order to build this extension just clone the repo and run `mvn clean compile assembly:single`. After running this successfully `./target` folder should appear with `burp-cli-scan.jar` file within.
+
+### Usage
 In order to run this extension you should first run Burp Suite manually and add it in the extender tab.
 From now on you can shutdown burp and run it from terminal like this:
 
