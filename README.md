@@ -6,7 +6,7 @@ It can spider host prior scan, or check only the provided link. You can get repo
 supported by burp suite: HTML or XML. 
 
 ### Build
-In order to build this extension just clone the repo and run `mvn clean compile assembly:single`. After running this successfully `./target` folder should appear with `burp-cli-scan.jar` file within.
+In order to build this extension you need to have java and maven installed. Then just clone the repo and run `mvn clean compile assembly:single`. After running this successfully `./target` folder should appear with `burp-cli-scan.jar` file within.
 
 ### Usage
 In order to run this extension you should first run Burp Suite manually and add it in the extender tab.
